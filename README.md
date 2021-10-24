@@ -10,3 +10,11 @@ FAST API labor exchange project. Made for study propose.
 - Python 3.9
 - FastAPI
 - Uvicorn
+
+## Launch
+```
+>: pip3 install -r requirements.txt
+>: sudo docker-compose -f docker-compose.dev.yaml up
+>: export EE_DATABASE_URL="postgresql://root:root@localhost:32700/employment_exchange"
+>: python3 main.py
+```
