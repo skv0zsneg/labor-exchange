@@ -14,7 +14,7 @@ def hash_password(password: str) -> str:
 
 
 def verify_password(password: str, hash: str) -> bool:
-    pwd_context.verify(password, hash)
+    return pwd_context.verify(password, hash)
 
 
 def create_access_token(data: dict) -> str:
